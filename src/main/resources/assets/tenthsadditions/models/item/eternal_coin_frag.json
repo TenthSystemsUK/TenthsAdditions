@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tenthsadditions:item/eternal_coin_frag"
+  }
+}
