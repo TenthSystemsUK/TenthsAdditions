@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import uk.tenthsrepo.TenthsAdditions;
+import uk.tenthsrepo.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -15,6 +16,7 @@ public class ModItemGroups {
             new Identifier(TenthsAdditions.MOD_ID, "currency"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.currency"))
                     .icon(() -> new ItemStack(ModItems.ETERNAL_COIN)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.COMPACTED_ETERNAL_COIN);
                         entries.add(ModItems.ETERNAL_COIN);
                         entries.add(ModItems.ETERNAL_COIN_FRAG);
                     }).build());
