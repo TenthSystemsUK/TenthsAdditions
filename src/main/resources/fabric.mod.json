@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "tenthsadditions",
+	"version": "${version}",
+	"name": "Tenth's Additions",
+	"description": "This is TenthDoctor and Foxyhighlands' mod of additions for the EternalSMP",
+	"authors": [
+		"TenthDoctor",
+		"Foxyhighlands"
+	],
+	"contact": {
+		"homepage": "https://github.com/TenthSystemsUK/TenthsAdditions",
+		"sources": "https://github.com/TenthSystemsUK/TenthsAdditions"
+	},
+	"license": "MIT",
+	"icon": "assets/tenthsadditions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"uk.tenthsrepo.TenthsAdditions"
+		],
+		"client": [
+			"uk.tenthsrepo.TenthsAdditionsClient"
+		],
+		"fabric-datagen": [
+			"uk.tenthsrepo.TenthsAdditionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"tenthsadditions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
