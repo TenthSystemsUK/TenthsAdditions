@@ -10,5 +10,8 @@
     "#": {
       "item": "tenthsadditions:eternal_coin"
     }
+  },
+  "result": {
+    "item": "tenthsadditions:compacted_eternal_coin"
   }
 }
