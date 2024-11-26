@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tenthsadditions:compacted_eternal_block"
+    }
+  ],
+  "result": {
+    "item": "tenthsadditions:eternal_coin",
+    "count": 9
+  }
+}

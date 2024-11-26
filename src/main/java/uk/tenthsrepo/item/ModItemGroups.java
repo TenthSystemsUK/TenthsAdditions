@@ -17,6 +17,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.currency"))
                     .icon(() -> new ItemStack(ModItems.ETERNAL_COIN)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.COMPACTED_ETERNAL_COIN);
+                        entries.add(ModBlocks.ETERNAL_FRAGMENT_ORE);
                         entries.add(ModItems.ETERNAL_COIN);
                         entries.add(ModItems.ETERNAL_COIN_FRAG);
                     }).build());
