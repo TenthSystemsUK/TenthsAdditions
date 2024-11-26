@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1,
+  "group": "eternal",
+  "ingredient": {
+    "item": "tenthsadditions:eternal_fragment_ore"
+  },
+  "result": "tenthsadditions:eternal_coin_frag"
+}
