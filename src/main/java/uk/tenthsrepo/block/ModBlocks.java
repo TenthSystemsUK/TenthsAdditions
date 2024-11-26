@@ -30,6 +30,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        TenthsAdditions.LOGGER.info("Registering ModBlocks for" + TenthsAdditions.MOD_ID);
+        TenthsAdditions.LOGGER.info("Registering ModBlocks for " + TenthsAdditions.MOD_ID);
     }
 }

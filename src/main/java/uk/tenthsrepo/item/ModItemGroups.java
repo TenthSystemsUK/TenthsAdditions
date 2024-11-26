@@ -23,6 +23,6 @@ public class ModItemGroups {
                     }).build());
 
     public static void registerItemGroups() {
-        TenthsAdditions.LOGGER.info("Registering Item Groups for" + TenthsAdditions.MOD_ID);
+        TenthsAdditions.LOGGER.info("Registering Item Groups for " + TenthsAdditions.MOD_ID);
     }
 }
