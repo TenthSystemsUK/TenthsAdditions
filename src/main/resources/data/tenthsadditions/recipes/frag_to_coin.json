@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "DGD",
+    "G#G",
+    "DGD"
+  ],
+  "key": {
+    "#": {
+      "item": "tenthsadditions:eternal_coin_frag"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "tenthsadditions:eternal_coin"
+  }
+}
