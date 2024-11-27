@@ -2,7 +2,7 @@
   "type": "minecraft:ore",
   "config": {
     "discard_chance_on_air_exposure": 0.0,
-    "size": "6",
+    "size": 3,
     "targets": [
       {
         "state": {
@@ -17,8 +17,10 @@
         "state": {
           "Name": "tenthsadditions:eternal_fragment_ore"
         },
-        "target": "minecraft:tag_match",
-        "tag": "minecraft:deepslate_ore_replaceables"
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:deepslate_ore_replaceables"
+        }
       }
     ]
   }

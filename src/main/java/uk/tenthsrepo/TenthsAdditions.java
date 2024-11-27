@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import uk.tenthsrepo.block.ModBlocks;
 import uk.tenthsrepo.item.ModItemGroups;
 import uk.tenthsrepo.item.ModItems;
+import uk.tenthsrepo.world.gen.ModWorldGeneration;
 
 public class TenthsAdditions implements ModInitializer {
 	public static final String MOD_ID = "tenthsadditions";
@@ -17,5 +18,6 @@ public class TenthsAdditions implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
